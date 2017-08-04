@@ -1,2 +1,2 @@
 # Basic-Java-Programming
-Just collect Java file 
+Collection of simple program using Java
