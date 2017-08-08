@@ -5,10 +5,9 @@ class Bank{
         Scanner scan = new Scanner(System.in);
 	double balance,bonus;
         String sex;
-	//bonus = 0.0;
 
 	do {
-
+		
 		System.out.print("Please Enter your gender (M/F) : ");
 		sex = scan.nextLine();
 		
@@ -29,16 +28,6 @@ class Bank{
 
 	System.out.println("\nEnter a balance");
 	balance = scan.nextDouble();	
-
-	/*if (sex.equalsIgnoreCase("F")){
-		if (balance > 5000){
-			bonus = balance * (5.0/100.0);
-		}else{	
-			bonus = balance * (2.0/100.0);
-		}
-	}else{
-		bonus = balance * (2.0/100.0);
-	} */
 	
 	if (sex.equalsIgnoreCase("M") && (balance > 5000.0)) {
 		bonus = balance * (5.0 / 100.0);
