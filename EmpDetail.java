@@ -1,3 +1,7 @@
+/* 09/08/2017
+    Employee Detail using default constructor and Parametize constructor 
+*/
+
 class Employee {
     int salary;
     int empno;
