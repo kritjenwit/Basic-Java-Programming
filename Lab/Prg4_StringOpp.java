@@ -23,7 +23,7 @@ class Prg3_StringOpp{
         
         System.out.println("Substring of " +s1+ "starting from index 1 and ending at 2 is : " +s1.substring(1,3));
 		
-		System.out.println("Replacing 'i' with 'o' in " +s1+ " is " +s1.replace('a','o'));
+	System.out.println("Replacing 'a' with 'o' in " +s1+ " is " +s1.replace('a','o'));
 		
 		boolean check = s1.squal(s2);
 		if (check == false){
