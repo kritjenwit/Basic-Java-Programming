@@ -25,9 +25,9 @@ class Prg3_StringOpp{
 		
 	System.out.println("Replacing 'a' with 'o' in " +s1+ " is " +s1.replace('a','o'));
 		
-		boolean check = s1.squal(s2);
+		boolean check = s1.equal(s2);
 		if (check == false){
-			System.out.pritln("" +s1+ " and " +s2+ " are not same ");
+			System.out.println("" +s1+ " and " +s2+ " are not same ");
 		}else{
 			System.out.println("" +s1+ " and " +s2+ " are same ");
 		}
