@@ -1,31 +1,31 @@
 class Cube{
-    int length,breadth,heigth;
+    int length,breadth,height;
     
     public int getVolumn(){
-        return (length * breadth * heigth);
+        return (length * breadth * height);
     }
 
     Cube() {
-        length=breadth=heigth=2;
+        length=breadth=height=2;
         System.out.println("Initialized with Default constructor");
     }
     
     Cube(int l,int b){
         length=l;
         breadth=b;
-        heigth=2;
+        height=2;
         System.out.println("Initialized with Parameterized constructor having 2 params");
     }
     
     Cube(int l,int b,int h) {
         length=l;
         breadth=b;
-        heigth=h;
+        height=h;
         System.out.println("Initialized with Parameterized constructor having 3 params");
     }
 }
 
-class Prg6_{
+class ConstrOver{
     public static void main(String[] args){
         
         Cube cb1 = new Cube();
